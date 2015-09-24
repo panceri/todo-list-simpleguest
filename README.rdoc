@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para rodar esse código siga os seguintes passos:
 
-Things you may want to cover:
+* Instalar ruby 2.2
 
-* Ruby version
+* Rodar o comando bundle para instalar as dependências
 
-* System dependencies
+* rake db:create, rake db:migrate, rake db:seed (Cria o banco, cria estrutura e popula o banco com usuário inicial)
 
-* Configuration
+* rails s para rodar o aplicativo e acessar a url indicada no console, provavelmente http://localhost:3000
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* rake spec para rodar os testes
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
