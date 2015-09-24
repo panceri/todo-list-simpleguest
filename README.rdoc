@@ -12,4 +12,5 @@ Para rodar esse código siga os seguintes passos:
 
 * rake spec para rodar os testes
 
+* O usuário padrão é admin@admin.com e a senha admin123
 
